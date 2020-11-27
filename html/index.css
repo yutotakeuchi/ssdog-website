@@ -1,11 +1,22 @@
 header {
+  position: sticky;
+  top: 0;
   height: 80px;
-  background-color: rgba(25, 25, 55, 0.3);
+  background-color: rgba(25, 25, 55, 0.7);
+  width: 100%;
+  min-width: 1300px;
+  z-index: 10;
+}
+
+body{
+  margin: 0;
 }
 
 .container{
   margin: 0 auto;
   width :1300px;
+  height: auto;
+  overflow: hidden;
 }
 
 .header-left{
@@ -47,6 +58,9 @@ header {
 
 .profile{
   margin-top: 80px;
+  width: 100%;
+  height: auto;
+  overflow: visible;
 }
 
 .profile-image{
@@ -60,10 +74,14 @@ header {
   height: 550px;
 }
 
+.profile-right{
+
+}
+
 .profile-title{
   text-align: center;
   float: left;
-  width: 40%;
+  width: 45%;
 }
 
 .profile-title h1{
@@ -73,14 +91,14 @@ header {
 
 .profile-sentence{
   text-align: center;
-  width: 40%;
+  width: 45%;
   float:left;
   font-size: 20px;
   margin: 10px 0;
 }
 
 .profile-link{
-  width: 40%;
+  width: 45%;
   float: left;
   text-align: center;
   margin-top: 50px;
@@ -92,5 +110,34 @@ header {
   display: inline-block;
   color: white;
   background-color: #00ffff;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.works{
+  margin-bottom: 80px;
+}
+
+.works-title{
+  text-align: center;
+}
+
+.works-title h1{
+  display: inline-block;
+  margin-top: 100px;
+  font-size: 60px;
+}
+
+.works-link{
+  text-align: center;
+}
+
+.works-link a{
+  font-size: 40px;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  background-color: #00ffff;
+  padding: 20px;
   border-radius: 10px;
 }
