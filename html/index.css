@@ -141,3 +141,61 @@ body{
   padding: 20px;
   border-radius: 10px;
 }
+
+.about-request{
+  text-align: center;
+
+}
+
+.about-request-title h1{
+  font-size: 60px;
+
+}
+
+.about-request-sentence{
+  margin: 40px 0px;
+}
+
+.about-request-sentence p{
+  font-size: 20px;
+}
+
+.about-request-link a{
+  text-decoration: none;
+  color: white;
+  font-size: 40px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #00ffff;
+  display: inline-block;
+  margin: 20px;
+}
+
+.contact{
+  text-align: center;
+
+}
+
+.contact-title h1{
+  font-size: 60px
+}
+
+.explain{
+  font-size: 20px;
+}
+
+.link a{
+  text-decoration: none;
+  color: white;
+  font-size: 40px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #00ffff;
+  display: inline-block;
+  margin: 20px;
+}
+
+footer{
+  background-color: #adff2f;
+  height: 100px;
+}
